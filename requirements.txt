@@ -1,0 +1,8 @@
+datasets
+transformers
+torch
+pandas
+numpy
+matplotlib
+seaborn
+tqdm

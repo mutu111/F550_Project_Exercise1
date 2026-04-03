@@ -1,0 +1,24 @@
+[project]
+name = "f500-project-exercise-1"
+version = "0.1.0"
+description = "Transcript download and sentiment analysis pipeline for selected FY2024 S&P 500 sectors."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "datasets",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "seaborn",
+    "torch",
+    "tqdm",
+    "transformers",
+]
+
+[project.scripts]
+f500-data-preprocess = "data_preprocess:main"
+f500-main = "main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

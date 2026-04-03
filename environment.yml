@@ -1,0 +1,15 @@
+name: f500-exercise1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - datasets
+      - matplotlib
+      - numpy
+      - pandas
+      - seaborn
+      - torch
+      - tqdm
+      - transformers
