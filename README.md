@@ -1,4 +1,6 @@
-# F500 project exercise 1
+# F550 project 
+
+## Exercise 1
 
 This project downloads FY2024 S&P 500 earnings call transcripts for the Information Technology and Industrials sectors, then measures forward-looking sentiment using both the Loughran-McDonald financial lexicon and FinBERT.
 
